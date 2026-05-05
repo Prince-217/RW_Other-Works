@@ -1,0 +1,132 @@
+.team-sec{
+    height: 700px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.team-tp-txt{
+    /* height: 200px; */
+    width: 100%;
+    /* background-color: darkkhaki; */
+    display: flex;
+    /* padding: 10px; */
+}
+
+.team-tp-txt .lft-txt{
+    height: 100%;
+    width: 350px;
+    /* background-color: aqua; */
+}
+
+.tm-smtx{
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.tm-bgtx{
+    font-family: "Phudu", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.jnmem-rt-btn{
+    height: 50px;
+    width: 200px;
+    /* background-color: blue; */
+    text-align: center;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: auto 0 0 auto;
+}
+
+.jnmem-rt-btn a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.tm-info-con{
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mem-prt .prf-img{
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.mim1{
+    background-image: url('../images/asset\ 24.webp');
+}
+.mim2{
+    background-image: url('../images/asset\ 25.webp');
+}
+.mim3{
+    background-image: url('../images/asset\ 26.webp');
+}
+.mim4{
+    background-image: url('../images/asset\ 27.webp');
+}
+
+.prf-data .dt-nm{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    /* letter-spacing: 1.3px; */
+    font-weight: 700;
+}
+
+.prf-data .dt-pos{
+    font-family: "Inter", sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+
+.soc-accs{
+    display: flex;
+}
+
+.soc-accs .so-ac{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 4px;
+    margin: 10px 5px 0 0;
+}
+
+.brands-sec{
+    padding-top: 100px; 
+}
+
+.brands-cont{
+    width: 100%;    
+    display: flex;
+    /* background-color: bisque; */
+}
+
+.brands-cont > div{
+    height: 120px;
+    flex-grow: 1;
+    text-align: center;
+    align-content: center;
+    /* width: 150px; */
+    border: 1px solid gray;
+}
+

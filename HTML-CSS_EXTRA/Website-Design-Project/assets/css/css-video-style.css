@@ -1,0 +1,68 @@
+.advnt-sml-cnt{
+    padding: 0 20px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.adbx-cmn{
+    height: 100px;
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 100px; */
+    /* background-color: chocolate; */
+}
+
+.advicom{
+    align-content: center;
+    /* width: 100px; */
+    height: 80px;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 25px;
+    border-radius: 100%;
+}
+
+.advnt-bx1 .ad-icn{
+    background-color: aqua;
+}
+.advnt-bx2 .ad-icn{
+    background-color: bisque;
+}
+.advnt-bx3 .ad-icn{
+    background-color: rgb(255, 176, 251);
+}
+
+.adv-txt-prt{
+    height: 100%;
+    width: 300px;
+    /* display: flex; */
+    align-content: center;
+    margin-left: 10px;
+}
+
+.atxt-tl{
+    font-family: "Phudu", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.adv-txt-prt > span{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.vid-big-img{
+    margin: 0 auto;
+    height: 800px;
+    width: 1400px;
+    background-image: url('../images/asset\ 14.webp');
+    background-size: cover;
+    border-radius: 400px;
+}

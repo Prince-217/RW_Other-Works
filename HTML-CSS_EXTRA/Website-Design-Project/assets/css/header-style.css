@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('../css/hero-style.css');
 @import url('../css/about-style.css');
+@import url('../css/css-video-style.css');
+@import url('../css/service-style.css');
+@import url('../css/portfolio-style.css');
+@import url('../css/team-style.css');
 
 *{
     margin: 0;

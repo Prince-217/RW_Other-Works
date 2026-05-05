@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.service-sec{
+    padding: 200px 0;
+    height: 1100px;
+}
+
+.ser-txt-head{
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+
+.stx-tp{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.stx-main{
+    font-size: 40px;
+    font-family: "Phudu", sans-serif;
+    font-weight: 600;
+}
+
+.sertx-img img{
+    width: 30px;
+}
+
+.serbxs-cnt{
+    display: flex;
+    height: 550px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.serv-bxmn-cmn{
+    height: 100%;
+    width: 440px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-inline: 15px;
+}
+
+.serv-bmn1{
+    background-color: rgb(104, 220, 252);
+}
+.serv-bmn2{
+    background-color: rgb(140, 212, 17);
+}
+.serv-bmn3{
+    background-color: rgb(225, 165, 239);
+}
+
+.srvicn{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 100%;
+}
+
+.ser-cnt-bxtxt{
+    /* margin-top: 50px; */
+    padding: 40px 0px;
+}
+
+.ser-cnt-bxtxt h2{
+    font-family: "Phudu", sans-serif;
+    margin-bottom: 20px;
+}
+
+.ser-cnt-bxtxt span{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.serv-cntbx-img{
+    /* margin-top: 20px; */
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.serbxs1-img{
+    background-image: url('../images/asset\ 15.webp');
+}
+.serbxs2-img{
+    background-image: url('../images/asset\ 16.webp');
+}
+.serbxs3-img{
+    background-image: url('../images/asset\ 17.webp');
+}
