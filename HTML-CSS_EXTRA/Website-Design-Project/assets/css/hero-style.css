@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero-sec{
+    position: relative;
+    height: 830px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/asset\ 66.webp");
+}
+
+.flt-img{
+    position: absolute;
+    height: 750px;
+    width: 700px;
+    inset: 100px auto auto 20px;
+    background-image: url("../images/asset\ 7.webp");
+    background-size: cover;
+    border-radius: 20px 20px 100px 20px;
+    z-index: 2;
+}
+
+.flt-child-1{
+    position: absolute;
+    inset: 50px auto auto 0;
+}
+
+.flt-child-2{
+    position: absolute;
+    inset: auto 20px 30px auto;
+}
+
+.rotated-bx{
+    width: 380px;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 450px;
+    border-bottom: 0.3px solid rgba(128, 128, 128, 0.374);
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 600;
+    transform: rotate(-90deg);
+}
+
+.flt-arw{
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+}
+
+.flt-txt-box{
+    height: 380px;
+    width: 500px;
+    position: absolute;
+    top: 280px;
+    right: 200px;
+}
+
+.txt-part{
+    font-size: 60px;
+    font-family: "Phudu", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.button-part{
+    position: absolute;
+    bottom: 0;
+}
+
+.button-part > button {
+    padding: 15px 30px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.ch-bt1{
+    background-color: #b4e717;
+    color: black;
+}
+
+.ch-bt2{
+    background-color: rgba(255, 255, 255, 0.167);
+    color: white;
+}
+
+.mrq-con{
+    position: absolute;
+    padding: 20px 0px;
+    bottom: 20px;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    border-top: 0.4px solid rgba(128, 128, 128, 0.31);
+}
+
+.mrq-con .tx-cnt{
+    display: inline-flex;
+    height: inherit;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+.tx-cnt > i{
+    font-size: 9px;
+    margin-right: 8px;
+    font-weight: 700;
+}

@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.pitch{
+    perspective: 800px;
+    position: absolute;
+    background-color: rgb(255, 158, 55);
+    border: 5px solid white;
+    height: 170px;
+    width: 1350px;
+    inset: auto 0 50px 0;
+    margin: auto;
+    transform: rotateX(70deg) skewX(-30deg);
+}
+
+.br-1, .br-2{
+    position: absolute;
+    width: 10px;
+    height: 165px;
+    background-color: white;
+}
+
+.br-1{
+    left: 140px;
+}
+
+.br-2{
+    right: 140px;
+}
+
+
+
+.st-cm{
+    position: absolute;
+    width: 10px;
+    height: 120px;
+    background-color: rgb(206, 124, 17);
+    border: 1.5px solid black;
+    border-radius: 5px 5px 0 0;
+    z-index: 0;
+}
+
+.lf-stick-1{
+    inset: auto auto 120px 100px;
+}
+.lf-stick-2{
+    inset: auto auto 130px 115px;
+    /* transform: rotate(-90deg) translate(-50px, -50px); */
+}
+.lf-stick-3{
+    inset: auto auto 140px 130px;
+}
+
+
+.ball{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(224, 37, 37);
+    border: 1.5px solid black;
+    border-radius: 100%;
+    position: absolute;
+    inset: auto -40px 300px auto;
+    z-index: 1;
+    animation-name: ball;
+    animation-duration: 6s;
+    /* animation-iteration-count: infinite; */
+    /* animation-directio; */
+}
+
+
+
+.bl-cm{
+    position: absolute;
+    height: 8px;
+    width: 20px;
+    transform: skewY(-20deg);
+    background-color: bisque;
+    border: 1.3px solid black;
+    border-radius: 8px;
+    animation-delay: 3s;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    /* animation-iteration-count: infinite; */
+}
+
+.bail-1{
+    inset: auto auto 240px 100px;
+    animation-name: bl1;
+}
+.bail-2{
+    inset: auto auto 250px 120px;
+    animation-name: bl2;
+}
+
+.bail-3{
+    inset: auto 130px 240px auto;
+}
+.bail-4{
+    inset: auto 110px 250px auto;
+}
+
+
+
+.rt-stick-1{
+    inset: auto 140px 120px auto;
+}
+.rt-stick-2{
+    inset: auto 125px 130px auto;
+}
+.rt-stick-3{
+    inset: auto 110px 140px auto;
+}
+
+.show{
+    position: absolute;
+    inset: 50px 0 auto 0;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    /* overflow: hidden; */
+    transform: scale(0);
+    animation-name: sw;
+    animation-duration: 1.5s;
+    animation-delay: 3.5s;
+}
+
+
+
+@keyframes ball{
+    0%{
+        transform: translate(0px, -50px);
+        transform: scale(1);
+    }
+    25%{
+        transform: translate(-900px, 150px);
+    }
+    50%{
+        transform: translate(-1430px, 80px);
+    }
+    75%{
+        transform: translate(-1630px, 80px);
+    }
+    100%{
+        transform: translate(0px, -50px);
+        transform: scale(0);
+    }
+
+}
+
+@keyframes bl1{
+    0%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(-40px, 100px) rotate(360deg);
+    }
+}
+
+@keyframes bl2{
+    0%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(40px, 100px) rotate(360deg);
+    }
+}
+
+@keyframes sw{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
