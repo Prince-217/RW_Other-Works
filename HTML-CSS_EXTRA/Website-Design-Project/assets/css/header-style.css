@@ -6,6 +6,10 @@
 @import url('../css/service-style.css');
 @import url('../css/portfolio-style.css');
 @import url('../css/team-style.css');
+@import url('../css/testimonial-style.css');
+@import url('../css/faq-style.css');
+@import url('../css/cta-style.css');
+@import url('../css/footer.css');
 
 *{
     margin: 0;
@@ -18,17 +22,21 @@
     background-size: cover;
 } */
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     height: 80px;
     width: 100%;
     padding: 20px;
-    /* background-color: rgba(243, 243, 243, 0.222); */
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.326);
+    position: fixed;
     top: 0;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    z-index: 2;
+    z-index: 10;
 }
 
 .logo{

@@ -1,0 +1,89 @@
+.cta-sec{
+    height: 600px;
+    width: 100%;
+    /* padding: 0 auto; */
+    background-color: bisque;
+    z-index: 3;
+}
+
+.cta-container{
+    height: 105%;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    /* background-color: burlywood; */
+    background-image: url('../images/asset\ 38.webp');
+    position: absolute;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.cta-box{
+    height: 650px;
+    width: 550px;
+    padding: 30px;
+    background-color: #F6F5F2;
+    border-radius: 30px;
+}
+
+.cttxt-prt{
+    margin-bottom: 20px;
+}
+
+.ctchl-sp1{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.ctbx-bgtxt{
+    font-size: 50px;
+    font-family: "Phudu", sans-serif;
+    font-weight: 600;
+    margin-block: 15px;
+}
+
+.ctchl-sp2{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: gray;
+}
+
+.ct-quebx{
+    width: 240px;
+    display: inline-block;
+}
+
+.ct-quebx label{
+    display: block;
+    margin: 20px 0 10px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.ct-quebx input{
+    margin: 0 10px 10px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.yr-msg input{
+    display: block;
+    padding: 10px;
+    height: 100px;
+    width: 450px;
+}
+
+.cnslt-btn{
+    display: block;
+    margin: 15px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: chartreuse;
+}
